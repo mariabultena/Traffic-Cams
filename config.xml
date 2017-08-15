@@ -12,6 +12,8 @@
 
 	<author href = "http:github.com/mariabultena/Traffic-Cams" email = "mariabultena@gmail.com"> Maria Bultena </author>
 
+	<plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+	
 	<icon src="icon.png"/>
 
 
