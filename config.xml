@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns				= "http://www.w3.org/ns/widgets"
+		xmlns:gap			= "http://phonegap.com/ns/1.0"
+		id					= "com.mariabultena.TrafficCam"
+		versionCode			= "1"
+		version  			= "1.0.0" >
+
+	<name>Local Traffic Cams</name>
+
+	<description>See updated stills from traffic cameras in the Tri-Cities.</description>
+
+	<author href = "http:github.com/mariabultena/Traffic-Cams" email = "mariabultena@gmail.com"> Maria Bultena </author>
+
+	<icon src="icon.png"/>
+
+
+
+</widget>
