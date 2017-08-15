@@ -14,7 +14,24 @@
 
 	<plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
 	
-	<icon src="icon.png"/>
+	<icon src = "ic_launcher.png" 
+      	gap:platform = "android" gap:qualifier = "ldpi" />
+		
+  	<icon src = "ic_launcher.png" 
+      	gap:platform = "android" gap:qualifier = "mdpi" />
+		
+   	<icon src = "ic_launcherHDPI.png" 
+      	gap:platform = "android" gap:qualifier = "hdpi" />
+		
+   	<icon src = "ic_launcherXHDPI.png" 
+      	gap:platform = "android" gap:qualifier = "xhdpi" />
+		
+   	<icon src = "ic_launcherXXHDPI.png" 
+      	gap:platform = "android" gap:qualifier = "xxhdpi" />
+
+   	<icon src = "ic_launcherXXXHDPI.png" 
+      	gap:platform = "android" gap:qualifier = "xxhdpi" />
+
 
 
 
