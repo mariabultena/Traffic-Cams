@@ -12,6 +12,10 @@
 
 	<author href = "http:github.com/mariabultena/Traffic-Cams" email = "mariabultena@gmail.com"> Maria Bultena </author>
 
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" />
+
 	<plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
 	
 	<icon src = "ic_launcher.png" 
