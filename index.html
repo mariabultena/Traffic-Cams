@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WSDOT Traffic Cameras</title>
+<meta charset="UTF-8">
+<!<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'
+ 'unsafe-eval'">>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="style2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h1>Local Traffic Camera Display</h1>
+<button ID="refresh" style=" width: 160px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;">Refresh</button>
+<script>
+$(document).ready(function(){
+    $("#refresh").click(function(){
+        location.reload(true);
+    });
+});
+
+</script>
+<script>
+$(document).ready(function(){
+    $("#btFM").click(function(){
+        $("#imgFM").toggle(1000);
+    });
+});
+</script>
+
+<p>Flow Map</p>
+<img src = "https://images.wsdot.wa.gov/tricities/flowmaps/tcfm.png" id = "imgFM" style = "  display: block; border:none; overflow:hidden; width:458px; height:560px; margin:auto; background: white; "/>
+<button id="btFM" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;">Toggle Flow Map</button>
+
+<script>
+$(document).ready(function(){
+    $("#btBB").click(function(){
+        $("#imgBB").toggle(1000);
+    });
+});
+</script>
+
+<p>Blue Bridge Pasco Side</p>
+<img src = "http://images.wsdot.wa.gov/sc/395VC01921.jpg" id = "imgBB" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+<button id="btBB" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Blue Bridge</button>
+
+<script>
+$(document).ready(function(){
+    $("#bt68").click(function(){
+        $("#img68").toggle(1000);
+    });
+});
+</script>
+
+<p>Road 68 Merge Lane</p>
+<img src = "http://images.wsdot.wa.gov/sc/182VC00927.jpg" id = "img68" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+
+<button id="bt68" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Road 68</button>
+<script>
+$(document).ready(function(){
+    $("#bt100").click(function(){
+        $("#img100").toggle(1000);
+    });
+});
+</script>
+
+<p>Road 100</p>
+<img src = "http://images.wsdot.wa.gov/sc/182vc00731.jpg" id = "img100" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+
+<button id="bt100" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Road 100</button>
+
+<script>
+$(document).ready(function(){
+    $("#btJA").click(function(){
+        $("#imgJA").toggle(1000);
+    });
+});
+</script>
+
+<p>Jadwin Avenue</p>
+<img src = "http://images.wsdot.wa.gov/sc/182VC00435.jpg" id = "imgJA" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+
+<button id="btJA" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Jadwin Avenue</button>
+
+<script>
+$(document).ready(function(){
+    $("#btBBR").click(function(){
+        $("#imgBBR").toggle(1000);
+    });
+});
+</script>
+
+<p>Blue Bridge Kennewick Side</p>
+<img src = "http://images.wsdot.wa.gov/sc/182VC00435.jpg" id = "imgBBR" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+
+<button id="btBBR" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Blue Bridge Roundabout</button>
+
+<script>
+$(document).ready(function(){
+    $("#btEd").click(function(){
+        $("#imgEd").toggle(1000);
+    });
+});
+</script>
+
+<p>Edison Street Exit</p>
+<img src = "http://images.wsdot.wa.gov/sc/240VC04049.jpg" id = "imgEd" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+
+<button id="btEd" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Edison St</button>
+
+<script>
+$(document).ready(function(){
+    $("#btTB").click(function(){
+        $("#imgTB").toggle(1000);
+    });
+});
+</script>
+
+<p>Twin Bridges</p>
+<img src = "http://images.wsdot.wa.gov/sc/240VC02500.jpg" id = "imgTB" style = "  display: block; border:none; overflow:hidden; width:320px; height:280px; margin:auto; background: white; "/>
+
+<button id="btTB" style=" width: 320px; display: block; margin: auto; margin-top: 20px; background-color: blue; color: white; font-size: 16px; border-radius: 8px;" >Toggle Twin Bridges</button>
+
+
+</body>
+</html>

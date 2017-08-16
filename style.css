@@ -1,0 +1,10 @@
+h1{
+  text-shadow: 4px 4px 16px #FFFFFF, -4px -4px 16px #FFFFFF;
+  text-align: center;
+}
+
+p{
+	margin-top: 20px;
+	text-shadow: 4px 4px 16px #FFFFFF, -4px -4px 16px #FFFFFF;
+  	text-align: center;
+}
