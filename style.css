@@ -8,12 +8,12 @@ h1 {
 }
 
 #refresh {
-  	width: 600px;
+  	width: 50%;
   	color: white; 
 }
 
 button {
-  	width: 700px; 
+  	width: 50%; 
   	display: block;
   	margin: auto;
   	margin-bottom: 40px;
